@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'DM Sans', Sans-Serif;
+  min-height: 9000;
+}
+
+.category::-webkit-scrollbar {
+  display: none;
+}
