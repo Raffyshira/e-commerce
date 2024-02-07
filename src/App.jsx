@@ -11,7 +11,7 @@ import FooterComponent from "./component/Footer.jsx";
 const App = () => {
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter basename={window.location.pathname || ''}>
                 <NavbarComponent />
                 <Routes>
                     <Route path="/" element={<Homepage />} />
