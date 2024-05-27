@@ -19,7 +19,7 @@ const App = () => {
                         path="/:parentName/:subName"
                         element={<TemplatePage />}
                     />
-                    <Route path="/Product/:name" element={<ProductDetail />} />
+                    <Route path="/product/:name" element={<ProductDetail />} />
                 </Routes>
                 <FooterComponent />
             </BrowserRouter>
