@@ -182,7 +182,7 @@ export const CardBestProduct = props => {
         <>
             <div className="p-5 max-w-full h-full">
                 <div className="w-44 h-full relative">
-                    <Link href={`/Product/${props.item.name}`}>
+                    <Link href={`/product/${props.item.name}`}>
                         <Image src={props.item.image} alt={props.item.name} />
                     </Link>
                     <div>
